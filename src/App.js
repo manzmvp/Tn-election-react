@@ -1,17 +1,25 @@
 import './App.css';
-import React, { useState } from "react";
-// import ReactDOM from "react-dom";
-import ReactTooltip from "react-tooltip";
-import MapChart from "./components/MapChart";
+import React from "react";
 import NavBar from "./components/NavBar"
+import Home from './contents/Home';
+import ReactPage from './contents/ReactPage';
+import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom'
+
 
 function App() {
-  const [content, setContent] = useState("");
   return (
     <div className="App">
-      <NavBar />
-      <MapChart setTooltipContent={setContent} />
-      <ReactTooltip>{content}</ReactTooltip>
+      <Router>
+        <NavBar />
+          <Switch>
+            <Route exact path="/home" component={Home} />
+            <Route exact path="/">
+              <Redirect to="/home" />
+            </Route>
+            <Route exact path="/react-page" component={ReactPage} />
+          </Switch>
+      </Router> 
+      
     </div>
   );
 }

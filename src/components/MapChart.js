@@ -4,7 +4,6 @@ import {
   Geographies,
   Geography
 } from "react-simple-maps";
-
 import map from '../map/Tn.json';
 
 const geoUrl = map;
