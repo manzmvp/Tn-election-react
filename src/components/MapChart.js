@@ -1,14 +1,16 @@
-import React, { memo } from "react";
+import React, { memo, useState } from "react";
 import {
   ComposableMap,
   Geographies,
   Geography
 } from "react-simple-maps";
 import map from '../map/Tn.json';
+import Tables from './Table'
 
 const geoUrl = map;
 
 const MapChart = ({ setTooltipContent }) => {
+  const[district, setDistrict] = useState("Thiruvallur");
   return (
     <>
       <ComposableMap data-tip="" 
@@ -25,6 +27,13 @@ const MapChart = ({ setTooltipContent }) => {
                 <Geography
                   key={geo.rsmKey}
                   geography={geo}
+                  onClick={
+                    //code for displaying table
+                    () => {
+                      const { NAME_2 } = geo.properties;
+                      setDistrict(NAME_2);
+                    }
+                  }
                   onMouseEnter={() => {
                     const { NAME_1, NAME_2 } = geo.properties;
                     setTooltipContent(`${NAME_1} — ${NAME_2}`);
@@ -45,7 +54,7 @@ const MapChart = ({ setTooltipContent }) => {
                     pressed: {
                       fill: "#E42",
                       outline: "none"
-                    }
+                    },
                   }}
                 />
               ))
@@ -53,6 +62,7 @@ const MapChart = ({ setTooltipContent }) => {
           </Geographies>
 
       </ComposableMap>
+      <Tables district={ district }/>
     </>
   );
 };
