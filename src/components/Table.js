@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import { withStyles, makeStyles } from '@material-ui/core/styles';
 import Table from '@material-ui/core/Table';
 import TableBody from '@material-ui/core/TableBody';
@@ -28,18 +28,6 @@ const StyledTableRow = withStyles((theme) => ({
   },
 }))(TableRow);
 
-function createData(name, calories, fat, carbs, protein) {
-  return { name, calories, fat, carbs, protein };
-}
-
-const rows = [
-  createData('Frozen yoghurt', 159, 6.0, 24, 4.0),
-  createData('Ice cream sandwich', 237, 9.0, 37, 4.3),
-  createData('Eclair', 262, 16.0, 24, 6.0),
-  createData('Cupcake', 305, 3.7, 67, 4.3),
-  createData('Gingerbread', 356, 16.0, 49, 3.9),
-];
-
 const useStyles = makeStyles({
   table: {
     minWidth: 700,
@@ -50,13 +38,7 @@ const useStyles = makeStyles({
 export default function Tables( { district } ) {
 
   const filterDistrict = candidateList.filter((data) => data.District === district)
-  console.log(filterDistrict)
-  console.log(filterDistrict[0].Candidate1)
   const classes = useStyles();
-
-
-  console.log(district)
-
   return (
     <TableContainer component={Paper}>
       <Table stickyHeader className={classes.table} aria-label="customized table">
@@ -111,20 +93,6 @@ export default function Tables( { district } ) {
               
             </StyledTableRow>
           ))}
-          
-          {/* {rows.map((row) => (
-            <StyledTableRow key={row.name}>
-              <StyledTableCell component="th" scope="row">
-                {row.name}
-              </StyledTableCell>
-              <StyledTableCell align="right">{row.calories}</StyledTableCell>
-              <StyledTableCell align="right">{row.fat}</StyledTableCell>
-              <StyledTableCell align="right">{row.carbs}</StyledTableCell>
-              <StyledTableCell align="right">{district}</StyledTableCell>
-            </StyledTableRow>
-          ))}
-           */}
-
         </TableBody>
       </Table>
     </TableContainer>

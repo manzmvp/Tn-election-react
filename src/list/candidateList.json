@@ -1,6 +1,6 @@
 ﻿[
 {
-    "District": "Thiruvallur",
+    "District": "Tiruvallur",
     "Constituency": "1",
     "Name": "Gummidipoondi",
     "Party1": "PMK",
@@ -15,7 +15,7 @@
     "Candidate5": "Usha"
 },
 {
-    "District": "Thiruvallur",
+    "District": "Tiruvallur",
     "Constituency": "2",
     "Name": "Ponneri",
     "Party1": "AIADMK",
@@ -30,7 +30,7 @@
     "Candidate5": "Maheswari"
 },
 {
-    "District": "Thiruvallur",
+    "District": "Tiruvallur",
     "Constituency": "3",
     "Name": "Tiruttani",
     "Party1": "AIADMK",
@@ -45,7 +45,7 @@
     "Candidate5": "Akila"
 },
 {
-    "District": "Thiruvallur",
+    "District": "Tiruvallur",
     "Constituency": "4",
     "Name": "Thiruvallur",
     "Party1": "AIADMK",
@@ -60,7 +60,7 @@
     "Candidate5": "Pasupathi"
 },
 {
-    "District": "Thiruvallur",
+    "District": "Tiruvallur",
     "Constituency": "5",
     "Name": "Poonamallee",
     "Party1": "PMK",
@@ -75,7 +75,7 @@
     "Candidate5": "Manimegalai"
 },
 {
-    "District": "Thiruvallur",
+    "District": "Tiruvallur",
     "Constituency": "6",
     "Name": "Avadi",
     "Party1": "AIADMK",
@@ -90,7 +90,7 @@
     "Candidate5": "Vijayalakshmi"
 },
 {
-    "District": "Thiruvallur",
+    "District": "Tiruvallur",
     "Constituency": "7",
     "Name": "Maduravoyal",
     "Party1": "AIADMK",
@@ -105,7 +105,7 @@
     "Candidate5": "Ganesh Kumar"
 },
 {
-    "District": "Thiruvallur",
+    "District": "Tiruvallur",
     "Constituency": "8",
     "Name": "Ambattur",
     "Party1": "AIADMK",
@@ -120,7 +120,7 @@
     "Candidate5": "Anbu Thenarasu"
 },
 {
-    "District": "Thiruvallur",
+    "District": "Tiruvallur",
     "Constituency": "9",
     "Name": "Madhavaram",
     "Party1": "AIADMK",
@@ -135,7 +135,7 @@
     "Candidate5": "Ezhumalai"
 },
 {
-    "District": "Thiruvallur",
+    "District": "Tiruvallur",
     "Constituency": "10",
     "Name": "Thiruvottiyur",
     "Party1": "AIADMK",
@@ -150,7 +150,7 @@
     "Candidate5": "Seeman"
 },
 {
-    "District": "Chennai ",
+    "District": "Chennai",
     "Constituency": "11",
     "Name": "Dr. Radhakrishnan Nagar",
     "Party1": "AIADMK",
@@ -165,7 +165,7 @@
     "Candidate5": "Gowri Shankar"
 },
 {
-    "District": "Chennai ",
+    "District": "Chennai",
     "Constituency": "12",
     "Name": "Perambur",
     "Party1": "PTMK",
@@ -180,7 +180,7 @@
     "Candidate5": "Merlin Suganthi"
 },
 {
-    "District": "Chennai ",
+    "District": "Chennai",
     "Constituency": "13",
     "Name": "Kolathur",
     "Party1": "AIADMK",
@@ -195,7 +195,7 @@
     "Candidate5": "Kemils Selva"
 },
 {
-    "District": "Chennai ",
+    "District": "Chennai",
     "Constituency": "14",
     "Name": "Villivakkam",
     "Party1": "AIADMK",
@@ -210,7 +210,7 @@
     "Candidate5": "Sridhar"
 },
 {
-    "District": "Chennai ",
+    "District": "Chennai",
     "Constituency": "15",
     "Name": "Thiru. Vi. Ka. Nagar",
     "Party1": "TMC",
@@ -225,7 +225,7 @@
     "Candidate5": "Elavanji"
 },
 {
-    "District": "Chennai ",
+    "District": "Chennai",
     "Constituency": "16",
     "Name": "Egmore",
     "Party1": "TMMK",
@@ -240,7 +240,7 @@
     "Candidate5": "Geetha Lakshmi"
 },
 {
-    "District": "Chennai ",
+    "District": "Chennai",
     "Constituency": "17",
     "Name": "Royapuram",
     "Party1": "AIADMK",
@@ -255,7 +255,7 @@
     "Candidate5": "Kamali"
 },
 {
-    "District": "Chennai ",
+    "District": "Chennai",
     "Constituency": "18",
     "Name": "Harbour",
     "Party1": "BJP",
@@ -270,7 +270,7 @@
     "Candidate5": "Muhammad Kadabi"
 },
 {
-    "District": "Chennai ",
+    "District": "Chennai",
     "Constituency": "19",
     "Name": "Chepauk-Thiruvallikeni",
     "Party1": "PMK",
@@ -285,7 +285,7 @@
     "Candidate5": "Jayasimaharaja"
 },
 {
-    "District": "Chennai ",
+    "District": "Chennai",
     "Constituency": "20",
     "Name": "Thousand Lights",
     "Party1": "BJP",
@@ -300,7 +300,7 @@
     "Candidate5": "Sherin"
 },
 {
-    "District": "Chennai ",
+    "District": "Chennai",
     "Constituency": "21",
     "Name": "Anna Nagar",
     "Party1": "AIADMK",
@@ -315,7 +315,7 @@
     "Candidate5": "Shankar"
 },
 {
-    "District": "Chennai ",
+    "District": "Chennai",
     "Constituency": "22",
     "Name": "Virugambakkam",
     "Party1": "AIADMK",
@@ -330,7 +330,7 @@
     "Candidate5": "Rajendiran"
 },
 {
-    "District": "Chennai ",
+    "District": "Chennai",
     "Constituency": "23",
     "Name": "Saidapet",
     "Party1": "AIADMK",
@@ -345,7 +345,7 @@
     "Candidate5": "Suresh Kumar"
 },
 {
-    "District": "Chennai ",
+    "District": "Chennai",
     "Constituency": "24",
     "Name": "Thyagaraya Nagar",
     "Party1": "AIADMK",
@@ -360,7 +360,7 @@
     "Candidate5": "Siva Shankari"
 },
 {
-    "District": "Chennai ",
+    "District": "Chennai",
     "Constituency": "25",
     "Name": "Mylapore",
     "Party1": "AIADMK",
@@ -375,7 +375,7 @@
     "Candidate5": "Mahalakshmi"
 },
 {
-    "District": "Chennai ",
+    "District": "Chennai",
     "Constituency": "26",
     "Name": "Velachery",
     "Party1": "AIADMK",
@@ -390,7 +390,7 @@
     "Candidate5": "Keerthana"
 },
 {
-    "District": "Chennai ",
+    "District": "Chennai",
     "Constituency": "27",
     "Name": "Sholinganallur",
     "Party1": "AIADMK",
@@ -1035,7 +1035,7 @@
     "Candidate5": "Prabhavathi"
 },
 {
-    "District": "Villupuram",
+    "District": "Viluppuram",
     "Constituency": "70",
     "Name": "Gingee",
     "Party1": "PMK",
@@ -1050,7 +1050,7 @@
     "Candidate5": "Sugumar"
 },
 {
-    "District": "Villupuram",
+    "District": "Viluppuram",
     "Constituency": "71",
     "Name": "Mailam",
     "Party1": "PMK",
@@ -1065,7 +1065,7 @@
     "Candidate5": "Uma Mageshwari"
 },
 {
-    "District": "Villupuram",
+    "District": "Viluppuram",
     "Constituency": "72",
     "Name": "Tindivanam",
     "Party1": "AIADMK",
@@ -1080,7 +1080,7 @@
     "Candidate5": "Pechimuthu"
 },
 {
-    "District": "Villupuram",
+    "District": "Viluppuram",
     "Constituency": "73",
     "Name": "Vanur",
     "Party1": "AIADMK",
@@ -1095,7 +1095,7 @@
     "Candidate5": "M. Lakshmi"
 },
 {
-    "District": "Villupuram",
+    "District": "Viluppuram",
     "Constituency": "74",
     "Name": "Villupuram",
     "Party1": "AIADMK",
@@ -1110,7 +1110,7 @@
     "Candidate5": "Selvam"
 },
 {
-    "District": "Villupuram",
+    "District": "Viluppuram",
     "Constituency": "75",
     "Name": "Vikravandi",
     "Party1": "AIADMK",
@@ -2655,7 +2655,7 @@
     "Candidate5": "K.Dileepan"
 },
 {
-    "District": "Pudukottai",
+    "District": "Pudukkottai",
     "Constituency": "178",
     "Name": "Gandharvakottai",
     "Party1": "AIADMK",
@@ -2670,7 +2670,7 @@
     "Candidate5": "M.Ramila"
 },
 {
-    "District": "Pudukottai",
+    "District": "Pudukkottai",
     "Constituency": "179",
     "Name": "Viralimalai",
     "Party1": "AIADMK",
@@ -2685,7 +2685,7 @@
     "Candidate5": "A. Azhagumeena"
 },
 {
-    "District": "Pudukottai",
+    "District": "Pudukkottai",
     "Constituency": "180",
     "Name": "Pudukkottai",
     "Party1": "AIADMK",
@@ -2700,7 +2700,7 @@
     "Candidate5": "T.Sasikumar"
 },
 {
-    "District": "Pudukottai",
+    "District": "Pudukkottai",
     "Constituency": "181",
     "Name": "Thirumayam",
     "Party1": "AIADMK",
@@ -2715,7 +2715,7 @@
     "Candidate5": "U.Sivaraman"
 },
 {
-    "District": "Pudukottai",
+    "District": "Pudukkottai",
     "Constituency": "182",
     "Name": "Alangudi",
     "Party1": "AIADMK",
@@ -2730,7 +2730,7 @@
     "Candidate5": "S. Thiruselvam"
 },
 {
-    "District": "Pudukottai",
+    "District": "Pudukkottai",
     "Constituency": "183",
     "Name": "Aranthangi",
     "Party1": "AIADMK",
@@ -2745,7 +2745,7 @@
     "Candidate5": "M.I.Humayun Kabir"
 },
 {
-    "District": "Sivaganga",
+    "District": "Sivagangai",
     "Constituency": "184",
     "Name": "Karaikudi",
     "Party1": "BJP",
@@ -2760,7 +2760,7 @@
     "Candidate5": "N.Duraimanikkam"
 },
 {
-    "District": "Sivaganga",
+    "District": "Sivagangai",
     "Constituency": "185",
     "Name": "Tiruppattur (Sivaganga)",
     "Party1": "AIADMK",
@@ -2775,7 +2775,7 @@
     "Candidate5": "R.Kottaikumar"
 },
 {
-    "District": "Sivaganga",
+    "District": "Sivagangai",
     "Constituency": "186",
     "Name": "Sivaganga",
     "Party1": "AIADMK",
@@ -2790,7 +2790,7 @@
     "Candidate5": "R.Malliga"
 },
 {
-    "District": "Sivaganga",
+    "District": "Sivagangai",
     "Constituency": "187",
     "Name": "Manamadurai",
     "Party1": "AIADMK",

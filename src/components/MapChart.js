@@ -10,7 +10,7 @@ import Tables from './Table'
 const geoUrl = map;
 
 const MapChart = ({ setTooltipContent }) => {
-  const[district, setDistrict] = useState("Thiruvallur");
+  const[district, setDistrict] = useState("Tiruvallur");
   return (
     <>
       <ComposableMap data-tip="" 
