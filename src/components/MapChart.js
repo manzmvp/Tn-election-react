@@ -7,20 +7,22 @@ import {
 import map from '../map/Tn.json';
 import Tables from './Table'
 
+
 const geoUrl = map;
 
 const MapChart = ({ setTooltipContent }) => {
   const[district, setDistrict] = useState("Tiruvallur");
   return (
-    <>
-      <ComposableMap data-tip="" 
+    <div>
+      <ComposableMap className="map" data-tip="" 
       projection="geoMercator"
       projectionConfig={{
-        scale: 2900,
+        scale: 3500,
         center: [78, 9]
       }}
+      width={800}
+      height={600}
       >
-        
           <Geographies geography={geoUrl}>
             {({ geographies }) =>
               geographies.map(geo => (
@@ -63,7 +65,7 @@ const MapChart = ({ setTooltipContent }) => {
 
       </ComposableMap>
       <Tables district={ district }/>
-    </>
+    </div>
   );
 };
 

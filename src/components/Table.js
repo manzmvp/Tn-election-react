@@ -8,7 +8,7 @@ import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import Paper from '@material-ui/core/Paper';
 import candidateList from '../list/candidateList.json';
-
+import Grid from '@material-ui/core/Grid';
 
 const StyledTableCell = withStyles((theme) => ({
   head: {
@@ -17,6 +17,10 @@ const StyledTableCell = withStyles((theme) => ({
   },
   body: {
     fontSize: 14,
+  },
+  tableCell: {
+    paddingRight: 4,
+    paddingLeft: 5
   },
 }))(TableCell);
 
@@ -40,15 +44,18 @@ export default function Tables( { district } ) {
   const filterDistrict = candidateList.filter((data) => data.District === district)
   const classes = useStyles();
   return (
+    
     <TableContainer component={Paper}>
+      
       <Table stickyHeader className={classes.table} aria-label="customized table">
+      
         <TableHead>
         <TableRow> 
           <StyledTableCell>{district}</StyledTableCell> 
         </TableRow>
         <TableRow>  
               <StyledTableCell>#</StyledTableCell>
-              <StyledTableCell>Constituency Name</StyledTableCell>   
+              <StyledTableCell align="right">Constituency Name</StyledTableCell>   
               <StyledTableCell align="right">Party</StyledTableCell>  
               <StyledTableCell align="right" >Candidate</StyledTableCell>
               <StyledTableCell align="right">Party</StyledTableCell>  
@@ -59,7 +66,8 @@ export default function Tables( { district } ) {
               <StyledTableCell align="right" >Candidate</StyledTableCell>
               <StyledTableCell align="right">Party</StyledTableCell>  
               <StyledTableCell align="right" >Candidate</StyledTableCell>    
-            </TableRow>  
+        </TableRow>  
+
         {/* <TableRow>
           <StyledTableCell align="center">Assembly Constituency	</StyledTableCell>
         </TableRow>
@@ -89,12 +97,14 @@ export default function Tables( { district } ) {
               <StyledTableCell align="right">{row.Party4}</StyledTableCell>
               <StyledTableCell align="right">{row.Candidate4}</StyledTableCell>
               <StyledTableCell align="right">{row.Party5}</StyledTableCell>
-              <StyledTableCell align="right">{row.Candidate5}</StyledTableCell>
-              
+              <StyledTableCell align="right">{row.Candidate5}</StyledTableCell>            
             </StyledTableRow>
           ))}
         </TableBody>
+
       </Table>
+      
     </TableContainer>
+    
   );
 }

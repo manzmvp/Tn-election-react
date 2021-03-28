@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import MapChart from '../components/MapChart';
 import ReactTooltip from "react-tooltip";
+
+
 function ReactPage() {
     const [content, setContent] = useState("");
     return(

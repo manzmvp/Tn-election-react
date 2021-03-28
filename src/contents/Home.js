@@ -2,7 +2,7 @@ import React from 'react';
 
 function Home() {
     return (
-      <div className="App">
+      <div className="Home">
         <h1>2021 Tamil Nadu Legislative Assembly election</h1>
         <hr></hr>
         <p>Tamil Nadu's politics have been dominated by the state's two leading parties, 

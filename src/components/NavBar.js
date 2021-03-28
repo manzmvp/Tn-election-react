@@ -12,6 +12,8 @@ import { Link } from 'react-router-dom';
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
+    paddingLeft:40,
+    paddingRight:50,
   },
   menuButton: {
     marginRight: theme.spacing(2),
@@ -36,7 +38,7 @@ export default function MenuAppBar() {
 
   return (
     <div className={classes.root}>
-      <AppBar position="static">
+      <AppBar position="fixed">
         <Toolbar>
         <IconButton 
               edge="start" 
@@ -71,6 +73,7 @@ export default function MenuAppBar() {
             </div>
         </Toolbar>
       </AppBar>
+      <Toolbar />
     </div>
   );
 }

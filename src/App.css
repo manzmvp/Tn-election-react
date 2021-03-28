@@ -1,3 +1,19 @@
+@media only screen and (min-width: 992px) {
+  .Home{
+    text-align: left;
+    padding-left: 100px;
+    padding-right: 300px;
+  }
+  .map{
+    margin-bottom: -350px;
+  }
+}
+/* .map{
+  margin-bottom: -350px;
+} */
+.Home{
+  text-align: left;
+}
 .App {
   text-align: center;
 }
