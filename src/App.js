@@ -3,7 +3,7 @@ import React from "react";
 import NavBar from "./components/NavBar"
 import Home from './contents/Home';
 import ReactPage from './contents/ReactPage';
-import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom'
+import { HashRouter as Router, Route, Switch, Redirect } from 'react-router-dom'
 
 
 function App() {
